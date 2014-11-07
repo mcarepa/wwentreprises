@@ -1,0 +1,11 @@
+@font-face {
+	font-family: "Helvetica LT Condensed";
+	src: url("../fonts/HelveticaLTStd-Cond.otf");
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Helvetica LT Condensed";
+	src: url("../fonts/HelveticaLTStd-BoldCond.otf");
+	font-weight: bold;
+}
