@@ -1,0 +1,24 @@
+/* FOOTER */
+.footer {
+	background-color: #303C49;
+	padding: 40px 15px;
+	color: white;
+}
+
+	.footer ul {
+		list-style: none;
+		padding: 0;
+	}
+
+		.footer ul li.active > a {
+			color: #E0E2E4;
+		}
+
+		.footer ul a {
+			color: #838A92;
+			text-decoration: none;
+		}
+
+			.footer ul li:not(.active) a:hover {
+				color: #E0E2E4;
+			}

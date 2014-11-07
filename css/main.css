@@ -7,6 +7,10 @@
 .no-margin { margin: 0; }
 
 /* GLOBAL */
+html,body {
+	background-color: #E0E2E4;
+}
+
 h1 {
 	font-family: "Helvetica LT Condensed", Helvetica, Arial, sans-serif;
 	font-weight: bold;
@@ -72,6 +76,8 @@ body.landing-page #main.container {
 
 	.fixed-nav .top-menu {
 		width: 100%;
+		height:  140px;
+		background-color: rgba(48,60,73,0.6);
 	}
 
 		.fixed-nav .top-menu .logo-wrap{
@@ -110,14 +116,17 @@ body.landing-page #main.container {
 				margin-right: 0;
 			}
 
+
 				.fixed-nav .top-menu .main-menu li a {
 					color: #E0E2E4;
 					text-decoration: none;
-				}	
+				}
 
-					.fixed-nav .top-menu .main-menu li a:hover {
+				.fixed-nav .top-menu .main-menu li.active > a {
+					color: #A2A7AD;
+				}
+
+					.fixed-nav .top-menu .main-menu li:not(.active) a:hover {
 						color: #E40045;
 					}
-
-
 
